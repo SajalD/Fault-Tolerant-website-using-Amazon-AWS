@@ -33,7 +33,7 @@ cp -r wordpress/* /var/www/html/
 rm -rf wordpress
 
 rm -rf latest.tar.gz
-
+#allow media files to upload 
 chmod -R 755 wp-content
 
 chown -R apache.apache wp-content
