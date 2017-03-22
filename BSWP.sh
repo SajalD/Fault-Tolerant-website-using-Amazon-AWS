@@ -13,7 +13,7 @@ cd /etc/httpd/conf
 cp httpd.conf httpdconfbackup.conf
 
 rm -rf httpd.conf
-
+#enables urls rewrite
 wget https://s3-eu-west-1.amazonaws.com/acloudguru-wp/httpd.conf
 
 
