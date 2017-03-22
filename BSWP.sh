@@ -13,7 +13,7 @@ cd /etc/httpd/conf
 cp httpd.conf httpdconfbackup.conf
 
 rm -rf httpd.conf
-#enables urls rewrite
+#enables urls rewrite using allowoverride none to all so that you can pass the media access to cloudfront not ec2 instance using .htaccess
 wget https://s3-eu-west-1.amazonaws.com/acloudguru-wp/httpd.conf
 
 
